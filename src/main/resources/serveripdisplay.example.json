@@ -1,0 +1,11 @@
+{
+  "serverIP": "play.simpfun.cn:36988",
+  "prefix": "[服务器IP]",
+  "backgroundColor": -342117530,
+  "borderColor": -33024,
+  "prefixColor": -10496,
+  "ipColor": -16711681,
+  "suffixColor": -11141248,
+  "suffix": "|  点击复制",
+  "enableClickToCopy": true
+}

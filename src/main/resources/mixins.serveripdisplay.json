@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "cn.simpfun.serveripdisplay.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MultiplayerScreenMixin"
+  ],
+  "client": [
+    "MultiplayerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

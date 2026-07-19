@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+showAsResourcePack=false
+
+[[mods]]
+modId="serveripdisplay"
+version="${file.jarVersion}"
+displayName="Server IP Display"
+description="在多人游戏界面顶部显示服务器IP地址横幅，点击即可复制IP到剪贴板。"
+logoFile=""
+logoBlur=true
+authors="SimpFun"
+credits=""
+
+[[dependencies.serveripdisplay]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="mixins.serveripdisplay.json"
